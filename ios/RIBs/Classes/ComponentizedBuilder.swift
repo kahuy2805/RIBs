@@ -14,7 +14,10 @@
 //  limitations under the License.
 //
 
+#if SWIFT_PACKAGE
 import Foundation
+#endif
+
 
 /// Utility that instantiates a RIB and sets up its internal wirings.
 /// This class ensures the strict one to one relationship between a

@@ -14,7 +14,9 @@
 //  limitations under the License.
 //
 
+#if SWIFT_PACKAGE
 import Foundation
+#endif
 
 /// The base protocol for all `Presenter`s.
 public protocol Presentable: class {}

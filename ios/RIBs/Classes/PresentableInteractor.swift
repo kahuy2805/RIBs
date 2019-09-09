@@ -14,7 +14,9 @@
 //  limitations under the License.
 //
 
+#if SWIFT_PACKAGE
 import Foundation
+#endif
 
 /// Base class of an `Interactor` that actually has an associated `Presenter` and `View`.
 open class PresentableInteractor<PresenterType>: Interactor {

@@ -21,6 +21,11 @@
 ///
 /// A component subclass implementation should conform to child 'Dependency' protocols, defined by all of its immediate
 /// children.
+
+#if SWIFT_PACKAGE
+import Foundation
+#endif
+
 open class Component<DependencyType>: Dependency {
 
     /// The dependency of this `Component`.

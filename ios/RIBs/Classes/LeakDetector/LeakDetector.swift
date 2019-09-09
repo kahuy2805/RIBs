@@ -16,6 +16,10 @@
 
 import RxSwift
 
+#if SWIFT_PACKAGE
+import UIKit
+#endif
+
 /// Leak detection status.
 public enum LeakDetectionStatus {
 

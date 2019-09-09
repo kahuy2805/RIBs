@@ -15,6 +15,10 @@
 //
 
 import RxSwift
+#if SWIFT_PACKAGE
+import Foundation
+#endif
+
 
 public class Executor {
 

@@ -14,9 +14,11 @@
 //  limitations under the License.
 //
 
-import Foundation
 import RxSwift
+#if SWIFT_PACKAGE
 import UIKit
+#endif
+
 
 /// Protocol defining the activeness of an interactor's scope.
 public protocol InteractorScope: class {

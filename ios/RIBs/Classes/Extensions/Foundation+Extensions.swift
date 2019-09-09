@@ -14,7 +14,10 @@
 //  limitations under the License.
 //
 
+#if SWIFT_PACKAGE
 import Foundation
+#endif
+
 
 /// Array extensions.
 public extension Array {

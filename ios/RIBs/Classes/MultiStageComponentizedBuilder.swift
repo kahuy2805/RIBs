@@ -14,7 +14,9 @@
 //  limitations under the License.
 //
 
+#if SWIFT_PACKAGE
 import Foundation
+#endif
 
 /// The base class of a builder that involves multiple stages of building
 /// a RIB. Witin the same pass, accesses to the component property shares

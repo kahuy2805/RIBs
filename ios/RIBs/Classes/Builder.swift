@@ -14,7 +14,10 @@
 //  limitations under the License.
 //
 
+#if SWIFT_PACKAGE
 import Foundation
+#endif
+
 
 /// The base builder protocol that all builders should conform to.
 public protocol Buildable: class {}
