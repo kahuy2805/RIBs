@@ -20,6 +20,6 @@ let package = Package(
         .target(
             name: "RIBs",
             dependencies: ["RxSwift"],
-            path: "RIBs")
+            path: "./ios/RIBs")
     ]
 )
