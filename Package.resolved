@@ -9,6 +9,15 @@
           "revision": "cce95dd704bc08cd3d69c087a05a6fc3118e2722",
           "version": "4.5.0"
         }
+      },
+      {
+        "package": "SharedPackage",
+        "repositoryURL": "ssh://git@code.hubcba.com:7999/~huy.kieu/shared_packages.git",
+        "state": {
+          "branch": null,
+          "revision": "52e8a1336cc88f7371f22e9b841c1b6b3cf3c04b",
+          "version": "0.0.1"
+        }
       }
     ]
   },

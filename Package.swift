@@ -14,12 +14,12 @@ let package = Package(
             targets: ["RIBs"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "4.5.0"),
+        .package(url: "ssh://git@code.hubcba.com:7999/~huy.kieu/shared_packages.git", from: "0.0.1"),
     ],
     targets: [
         .target(
             name: "RIBs",
-            dependencies: ["RxSwift"],
+            dependencies: ["SharedPackage"],
             path: "./ios/RIBs")
     ]
 )
